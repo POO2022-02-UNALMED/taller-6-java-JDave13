@@ -78,7 +78,7 @@ public class Vehiculo {
     }
 
     public void setTraccion(String traccion) {
-        this._traccion = traccion;
+        this.traccion = traccion;
     }
 
     public Fabricante getFabricante() {
