@@ -86,7 +86,7 @@ public class Vehiculo {
     }
 
     public void setFabricante(Fabricante fabricante) {
-        this._fabricante = fabricante;
+        this.fabricante = fabricante;
     }
 
     public static int getCantidadVehiculos() {
