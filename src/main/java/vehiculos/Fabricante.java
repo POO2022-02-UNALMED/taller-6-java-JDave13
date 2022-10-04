@@ -45,7 +45,7 @@ public class Fabricante {
 
 
     public static Fabricante fabricaMayorVentas() {
-        Fabricante fabMventas = listado.get(1);
+        Fabricante fabMventas = listado.get(0);
         for (Fabricante v : listado) {
             if (v.getTotalVentas() > fabMventas.getTotalVentas()) {
                 fabMventas = v;
